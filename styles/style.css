@@ -10,6 +10,16 @@
   padding: 0;
 }
 
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.center {
+  margin: 0 auto;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -69,14 +79,21 @@
 }
 
 .description {
-  min-height: 500px; /*потом поправить*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.description__two-columns {
+.content__description {
   margin: 100px 0; /* или лучше padding? */
+}
+
+.content__digits {
+  margin: 100px 0;
+}
+
+.content__feynman {
+  margin-top: 100px;
 }
 
 .two-columns {
@@ -111,6 +128,92 @@
 
 .two-columns__span-accent {
   font-weight: bold;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.section-title__section-subtitle {
+  margin-bottom: 20px;
+}
+
+.feynman {
+  height: 70vh;
+  position: relative;
+}
+
+.feynman__title {
+  width: 648px;
+  margin-bottom: 70px;
+  text-align: center;
+  display: block;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  display: block;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
