@@ -9,3 +9,9 @@
 - CSS3
 - Flex
 - Keyframes
+
+### Инструменты разработчика
+
+- Git
+- DevTools
+- VSCode
